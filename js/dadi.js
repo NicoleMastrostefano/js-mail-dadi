@@ -17,5 +17,5 @@ else if (n1 < n2)
     document.getElementById("messaggio").innerHTML = "HAI PERSO!";
 
 else
-document.getElementById("messaggio").innerHTML = "HAI PAREGGIATO!";
+    document.getElementById("messaggio").innerHTML = "HAI PAREGGIATO!";
 }
