@@ -11,11 +11,11 @@ document.getElementById("numero2").innerHTML = "L'avversario ha ottenuto " + n2;
 
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 if (n1 > n2)
-    document.getElementById("messaggio").innerHTML = "HAI VINTO!";
+  document.getElementById("messaggio").innerHTML = "HAI VINTO!";
 
 else if (n1 < n2)
-    document.getElementById("messaggio").innerHTML = "HAI PERSO!";
+  document.getElementById("messaggio").innerHTML = "HAI PERSO!";
 
 else
-    document.getElementById("messaggio").innerHTML = "HAI PAREGGIATO!";
+  document.getElementById("messaggio").innerHTML = "HAI PAREGGIATO!";
 }
